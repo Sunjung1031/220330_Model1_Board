@@ -5,7 +5,7 @@
 <%@ page import="board.BoardDAO" %>
 
 <%
-	// 1. getBoardList.jsp에서 넘어온 seq 추출
+	// 1. getBoardList.jsp에서 넘어온 seq 추출.
 	String seq = request.getParameter("seq");
 	// 2. BoardDO 객체 생성 후 seq를 중간 저장소에 저장한다.
 	BoardDO boardDO = new BoardDO();
